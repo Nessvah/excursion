@@ -12,6 +12,7 @@ body {
 video,
 picture {
   display: block;
+  margin: 0 auto;
 }
 
 h1,
@@ -36,4 +37,8 @@ p {
 a {
   color: aquamarine;
   font-size: 16px;
+}
+
+header {
+  padding-top: 50px;
 }
