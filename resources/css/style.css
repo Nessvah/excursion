@@ -3,7 +3,37 @@
   padding: 0;
 }
 
+body {
+  background-color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
 video,
 picture {
   display: block;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 42px;
+}
+
+p {
+  color: gray;
+  font-size: 21px;
+}
+
+a {
+  color: aquamarine;
+  font-size: 16px;
 }
