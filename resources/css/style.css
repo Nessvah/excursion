@@ -27,6 +27,7 @@ h1 {
 h2 {
   font-weight: 300;
   font-size: 42px;
+  line-height: 3;
 }
 
 p {
@@ -37,8 +38,23 @@ p {
 a {
   color: aquamarine;
   font-size: 16px;
+  line-height: 5;
 }
 
 header {
   padding-top: 50px;
+}
+
+picture {
+  padding: 15px 0 10px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-text {
+  text-align: right;
+  padding: 10px 20px;
 }
